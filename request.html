@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/ThinkitWebsite/default.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <!--<script type="text/javascript" src="/ThinkitWebsite/src/js/requestsm.js"></script>-->
@@ -56,13 +57,13 @@
       <div class="col-sm-9">
         <h3>Submit feedback</h3>
           <form>
-            <p>First name: </p></p><input type="text" name="firstname">*
+            <p>First name: </p></p><input type="text" name="firstname"><p class="form-isrequired">*</p>
             <br>
-            <p>Last name: </p><input type="text" name="lastname">*
+            <p>Last name: </p><input type="text" name="lastname"><p class="form-isrequired">*</p>
             <br>
-            <p>Email: </p><input type="text" name="email">*
+            <p>Email: </p><input type="text" name="email"><p class="form-isrequired">*</p>
             <br>
-            <p>Idea: </p><textarea name="message" rows="10" cols="30">Write out your idea here. Be as detailed as possible. if you have a problem that needs an invention to solve it, please say so.</textarea>*
+            <p>Idea: </p><textarea name="message" rows="10" cols="30">Write out your idea here. Be as detailed as possible. if you have a problem that needs an invention to solve it, please say so.</textarea><p class="form-isrequired">*</p>
             <br>
             <button type="button" onclick="submitrequest()">Submit</button>
           </form>
