@@ -1,3 +1,5 @@
+/* REMEMBER: watch for conflicts with existing Bootstrap stylesheet. */
+
 /* Tags */
 /* General text */
 p {
@@ -11,3 +13,6 @@ p {
    color: red;
    font-weight: bold;
 }
+
+/* Compounds */
+/* //For readability, compounds are not used. */
